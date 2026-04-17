@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container-fluid{
+  background-color: white;
+}
+.navbar-nav{
+  padding-top: 1.5rem;
+  padding-left: 14rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  
+}
+.nav-item {
+  margin-left: 2.2rem;
+}
+
+.table-heading{
+  padding:0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  opacity: 0.5;
+  border-bottom: 1px solid #B6b6b4;
+}
+
+.table-data{
+  padding:0.5rem;
+  opacity: 0.8;
+  border-bottom: 1px solid #B6b6b4;
+}
+.watchlist{
+ font-size: 0.8rem;
+ padding-left: 0.5rem;
+
+}
+.down{
+  color: red;
+}
+
+.up{
+  color: #74c476;
+}
+.icon{
+  font-size: 1rem;
+  color: #B6b6b4;
+  z-index: 10;
+
+}
+.sell{
+  background-color:orangered ;
+  z-index: 10;
+}
+.buy{
+  background-color: #3497f0;
+  z-index: 10;
+}
+.loss{
+  color: red;
+}
+.profit{
+  color: #74c476;
+}
